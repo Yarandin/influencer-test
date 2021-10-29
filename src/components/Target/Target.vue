@@ -105,7 +105,7 @@ export default {
     },
     methods: {
         fetchLocations: function () {
-            fetch('http://instars.hostify.one/graphql', {
+            fetch('https://instars.hostify.one/graphql', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
