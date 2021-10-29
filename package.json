@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "@vueform/slider": "^2.0.5",
+    "async-file": "^2.0.2",
+    "cli-ux": "^5.6.3",
+    "core-js": "^3.6.5",
+    "got": "^11.8.2",
+    "normalize.css": "^8.0.1",
+    "phoenix": "^1.6.2",
+    "vue": "^2.6.11",
+    "vue-star-rating": "^1.7.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/composition-api": "^1.2.4",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
